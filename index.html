@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdTech Professional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Freedom study point</h1>
+            <p>Empowering the Future of Education with Technology</p>
+            <button onclick="scrollToSection('#services')">Our Services</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h2>Web Development</h2>
+                <h3>HTML Formatting is used to modify the visual appearance of an enclosed text or statement on the web page. The HTML text formatting also adds semantic value to the highlighted text and improve its readability.</h3>
+            </div>
+            <div class="service">
+                <h2>Data Science</h2>
+                <h3>Datasets For Data Science have structured and unstructured datasets essential for analysis, decision-making, and driving machine learning models in various applications.</h3>
+            </div>
+            <div class="service">
+                <h2>Learning Ai</h2>
+                <h3>Generative AI frameworks are platforms designed to create new content in the form of text, images, audio, video using learning patterns from datasets. It simplifies the complex process of creating, designing, training, and deploying AI models..</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <h4>An EdTech website leverages technology to enhance education by providing online courses, interactive learning tools, and resources for students, teachers, and educational institutions. It typically features an easy-to-navigate platform with personalized learning paths, assessments, and certifications. EdTech sites often include a Learning Management System (LMS) to manage courses, track progress, and facilitate collaboration. They offer flexibility, scalability, and accessibility, allowing learners to access content anytime and from anywhere. Additionally, these platforms may integrate real-time analytics and third-party tools to improve the learning experience</h4>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us Gmail-sameer8506818sameeraligmail.com|Contact No.- +91 8081517280</p>
+        <p>&copy; 2024 EdTech Professional | All Rights Reserved</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
